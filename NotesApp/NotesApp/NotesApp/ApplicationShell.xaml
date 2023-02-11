@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NotesApp.ApplicationShell" xmlns:views ="clr-namespace:NotesApp.Views">
+    <TabBar>
+        <ShellContent Title="Notes" Icon="ic_notes.png" ContentTemplate="{DataTemplate views:NotesPage}"></ShellContent>
+        <ShellContent Title="About" Icon="ic_info.png" ContentTemplate="{DataTemplate views:AboutPage}"></ShellContent>
+    </TabBar>
+</Shell>
